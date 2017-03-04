@@ -25,10 +25,10 @@ public class MainActivity extends AppCompatActivity {
       boolean click=((ToggleButton)v).isChecked();
 
        if(click) {
-           txt1.setVisibility(View.VISIBLE);
+           txt1.setVisibility(View.INVISIBLE);
        }
       else{
-           txt1.setVisibility(View.INVISIBLE);
+           txt1.setVisibility(View.VISIBLE);
 
   }
 
